@@ -19,7 +19,11 @@ export default function RootLayout({ children }) {
 
         <div className="flex bg-yellow-100">
           <Sidebar />
-          <div className="bg-slate-500 w-full">{children}</div>
+          <div className="bg-slate-500 w-full">{children}
+            aohduhvuirbv
+
+          vghbuv
+          </div>
         </div>
 
         <Footer />
