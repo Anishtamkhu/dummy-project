@@ -1,4 +1,5 @@
-import localFont from "./globals.css";
+import localFont from "next/font/local";
+
 
 
 import Header from "../components/header";
@@ -16,7 +17,7 @@ export default function RootLayout({ children }) {
       <body>
         <Header />
 
-        <div className="flex bg-yellow-100 h-screen">
+        <div className="flex bg-yellow-100">
           <Sidebar />
           <div className="bg-slate-500 w-full">{children}</div>
         </div>
